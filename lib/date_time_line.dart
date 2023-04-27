@@ -55,6 +55,8 @@ class _DateTimeLineState extends State<DateTimeLine> {
 
   scrollPicker(DateTime dateTime) {
     late bool isSelected;
+    
+    late bool isSelected;
 
     dateTime == selectedDate ? isSelected = true : isSelected = false;
 
